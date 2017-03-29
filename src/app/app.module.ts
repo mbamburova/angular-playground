@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 
-// always add modules here
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +15,7 @@ import { ServersComponent } from './servers/servers.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule, // required for two way binding to work
     HttpModule
   ],
   providers: [],
