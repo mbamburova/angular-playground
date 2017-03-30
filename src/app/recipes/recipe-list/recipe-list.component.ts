@@ -10,11 +10,11 @@ export class RecipeListComponent implements OnInit {
 
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test',
+    new Recipe('Zucchini Corn Dalia Recipe', 'This is simply a test',
       'https://upload.wikimedia.org/wikipedia/commons/5/51/Zucchini-corn-dalia-recipe.jpg'),
 
-    new Recipe('Another Test Recipe', 'This is simply a test',
-    'https://upload.wikimedia.org/wikipedia/commons/5/51/Zucchini-corn-dalia-recipe.jpg')
+    new Recipe('Vermicelli Recipe', 'This is simply a test',
+    'https://upload.wikimedia.org/wikipedia/commons/f/f5/Vermicelli-upma-recipe.jpg')
   ];
 
   constructor() { }
