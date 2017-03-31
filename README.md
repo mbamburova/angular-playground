@@ -8,7 +8,6 @@ from [Udemy](https://www.udemy.com/courses/) to learn how to develop complex web
 * [Angular 4](https://angular.io/)
 * [Angular CLI](https://cli.angular.io/)
 * [TypeScript](https://www.typescriptlang.org/)
-* [Node.js](https://nodejs.org/en/)
 
 
 
