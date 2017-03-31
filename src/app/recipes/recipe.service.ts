@@ -1,6 +1,9 @@
 import {Recipe} from './recipe.model';
+import {EventEmitter} from '@angular/core';
 
 export class RecipeService {
+  recipeSelected = new EventEmitter<Recipe>();
+
   private recipes: Recipe[] = [
     new Recipe('Zucchini Corn Dalia Recipe', 'This is simply a test',
       'https://upload.wikimedia.org/wikipedia/commons/5/51/Zucchini-corn-dalia-recipe.jpg'),
