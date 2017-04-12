@@ -37,7 +37,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ShoppingListService], // provide allso to recipes comps
+  providers: [ShoppingListService], // provide also to recipes comps
   bootstrap: [AppComponent] // responsible for telling angular which components starts
 })
 export class AppModule { }
