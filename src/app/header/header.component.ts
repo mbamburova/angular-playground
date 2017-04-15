@@ -17,4 +17,10 @@ export class HeaderComponent {
         }
       );
   }
+
+  onFetchData() {
+    // we dont need to subscribe because we've already do this in
+    // DataStorageService
+    this.dataStorageService.getrecipes();
+  }
 }
