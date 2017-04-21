@@ -24,6 +24,7 @@ import {AuthService} from './auth/auth.service';
 import {AuthGuard} from './auth/auth-guard.service';
 
 @NgModule({
+  // define which components, pipes or directives does this module use
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -39,6 +40,7 @@ import {AuthGuard} from './auth/auth-guard.service';
     SignupComponent,
     SigninComponent
   ],
+  // which our does this module use
   imports: [
     BrowserModule,
     FormsModule, // required for two way binding to work
